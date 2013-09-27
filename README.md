@@ -4,16 +4,6 @@ A bookmarklet that shows the contrast ratio of the current element and its backg
 
 ![](https://s3.amazonaws.com/cyclinganalytics/static/contrast-checker.png)
 
-## Usage
-
-To use this, create a bookmark for:
-
-    javascript:(function(){var newscript=document.createElement('script');newscript.type='text/javascript';newscript.async=true;newscript.src='https://s3.amazonaws.com/cyclinganalytics/static/contrast-checker.js';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript);})();
-    
-(I'd create a link that can be dragged to the bookmarks toolbar, except GitHub doesn't allow that.)
-
-Alternatively, to use this on a particular page, open up the developer tools JavaScript console and run the previous line of code (without the `javascript:` beginning).
-
 ## What is this?
 
 Sometimes you see a webpage where there just isn't enough contrast between the text and the background. It turns out that it's possible to quantify how much contrast there is, and W3C specifies both how to do this, and [recommedations](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast) for how much contrast there should be.
@@ -42,6 +32,16 @@ Text that is part of a logo, an inactive UI component, or existing only for deco
 * When there are CSS hover effects, the colour on hover is used.
 * `:visited` styles are not taken into account, as it is impossible to read these styles for security reasons.
 * This doesn't work on some sites like Facebook and GitHub because they employ Content Security Policy directives to whitelist JavaScript source locations.
+
+## Usage
+
+To use this, create a bookmark for:
+
+    javascript:(function(){var newscript=document.createElement('script');newscript.type='text/javascript';newscript.async=true;newscript.src='https://s3.amazonaws.com/cyclinganalytics/static/contrast-checker.js';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(newscript);})();
+    
+(I'd create a link that can be dragged to the bookmarks toolbar, except GitHub doesn't allow that.)
+
+Alternatively, to use this on a particular page, open up the developer tools JavaScript console and run the previous line of code (without the `javascript:` beginning).
 
 ## About me
 
