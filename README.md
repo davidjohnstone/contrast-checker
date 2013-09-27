@@ -46,7 +46,7 @@ Alternatively, to use this on a particular page, open up the developer tools Jav
 
 ## About me
 
-I'm [David Johnstone](http://davidjohnstone.net). I keep myself busy building [Cycling Analytics](www.cyclinganalytics.com/), a website for cyclists. I can be found on Twitter as [@cyclist_dave](https://twitter.com/cyclist_dave), or emailed at [david@davidjohnstone.net](mailto:david@davidjohnstone.net).
+I'm [David Johnstone](http://davidjohnstone.net). I keep myself busy building [Cycling Analytics](https://www.cyclinganalytics.com/), a website for cyclists. I can be found on Twitter as [@cyclist_dave](https://twitter.com/cyclist_dave), or emailed at [david@davidjohnstone.net](mailto:david@davidjohnstone.net).
 
 ## License
 
