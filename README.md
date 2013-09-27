@@ -31,6 +31,7 @@ Text that is part of a logo, an inactive UI component, or existing only for deco
 * This requires a solid opaque background to work. Transparency, gradiants and background images are not supported.
 * When there are CSS hover effects, the colour on hover is used.
 * `:visited` styles are not taken into account, as it is impossible to read these styles for security reasons.
+* This doesn't work for iframes.
 * This doesn't work on some sites like Facebook and GitHub because they employ Content Security Policy directives to whitelist JavaScript source locations.
 
 ## Usage
